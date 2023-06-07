@@ -1,17 +1,16 @@
 import React,{useState} from 'react'
-import Card from '../../common/Card'
 import Sidebar from '../../common/SideBar'
 import NavBarEx from '../../common/NavBarEx'
-import { CustomLineChart } from '../../common/CustomLineChart'
+
 import SpecificCustomerDetails from '../../components/SpecificCustomerDetails'
 export default function SpecificCustomer() {
     const [open, setOpen] = useState(0);
     const showPopUp = (value) => {
         setOpen(value)
     }
-    const closePopUp = () => {
-        setOpen(0)
-    }
+    // const closePopUp = () => {
+    //     setOpen(0)
+    // }
     return (
         <>
             {/* <NavBar/> */}

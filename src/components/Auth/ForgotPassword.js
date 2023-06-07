@@ -19,9 +19,9 @@ export default function () {
     backgroundColor: "#fff",
   };
   const [open, setOpen] = useState(0);
-  const showPopUp = () => {
-    setOpen(1);
-  };
+  // const showPopUp = () => {
+  //   setOpen(1);
+  // };
   const closePopUp = () => {
     setOpen(0);
   };

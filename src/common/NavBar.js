@@ -87,7 +87,7 @@ import Heading from "../common/Heading";
 import Button from "../common/Button";
 import searchicon from "../Assets/search_icon.png";
 import hamburgerIcon from "../Assets/hamburger.png";
-import styles from "./Navbar.module.css";
+
 
 const NavBar = (props) => {
   const clickHandler = () => {

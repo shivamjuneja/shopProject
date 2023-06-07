@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Sidebar from "../../../common/SideBar";
-import NavBar from "../../../common/NavBar";
+
 import NavBarEx from "../../../common/NavBarEx";
 import Card from "../../../common/Card";
 import Heading from "../../../common/Heading";
@@ -13,9 +13,9 @@ const Dashboard = () => {
     const showPopUp = (value) => {
         setOpen(value)
     }
-    const closePopUp = () => {
-        setOpen(0)
-    }
+    // const closePopUp = () => {
+    //     setOpen(0)
+    // }
   const flagForSideNav=true;
   const data = [1, 2, 3,4,5,6,7,8,9,10,11,12];
   // return <CardList data={cardData} />;

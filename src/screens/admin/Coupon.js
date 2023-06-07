@@ -52,11 +52,7 @@ export default function Coupon() {
         // backgroundColor:'#fff'
     
       }
-      const dhundla={
-        backgroundColor:'red',
-        backgroundSize: 'cover',
-        filter: "blur('80px')"
-      }
+      
    
     return (
         <>
@@ -66,11 +62,11 @@ export default function Coupon() {
             <div className={`container-fluid `}   >
                 <div className='row'>
                     {/* giving the grid of 2 to side nav */}
-                    <div className={`col-lg-2 col-md-2 ${stylesCoupon.left}`} style={ open==1?{filter:"blur(2px)"}:{} }>
+                    <div className={`col-lg-2 col-md-2 ${stylesCoupon.left}`} style={ open===1?{filter:"blur(2px)"}:{} }>
                         <Sidebar />
                     </div>
 
-                    <div className='col-lg-10 col-md-10 right' style={ open==1?{filter:"blur(2px)"}:{} } >
+                    <div className='col-lg-10 col-md-10 right' style={ open===1?{filter:"blur(2px)"}:{} } >
                         <div className='row'>
 
                             

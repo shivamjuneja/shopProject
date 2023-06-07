@@ -25,11 +25,7 @@ export default function HomeScreen() {
             window.removeEventListener('resize', handleResize);
         };
     }, [windowWidth]);
-    const square = {
-        width: '200',
-        height: '200',
-        backgroundColor: 'red'
-    }
+   
     const color = {
         color: '#706C6C',
         fontSize: '15px',
@@ -56,19 +52,15 @@ export default function HomeScreen() {
 
 
     }
-    const tableColumnData = {
-        fontSize: '13px',
-        fontWeight: '500px',
-        fontSize: '13px',
-        // lineHeight: '16px'
-    }
+    
     const [open, setOpen] = useState(0);
     const showPopUp = (value) => {
+        console.log(open)
         setOpen(value)
     }
-    const closePopUp = () => {
-        setOpen(0)
-    }
+    // const closePopUp = () => {
+    //     setOpen(0)
+    // }
 
     return (
 

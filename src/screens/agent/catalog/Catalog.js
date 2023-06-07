@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import Card from "../../../common/Card"
 import Sidebar from '../../../common/SideBar'
-import NavBar from '../../../common/NavBar'
 import NavBarEx from '../../../common/NavBarEx'
 import styles from '../catalog/Catalog.module.css'
 import dustbin from '../../../Assets/🦆 icon _trash_.png'
@@ -12,9 +11,9 @@ export default function Catalog() {
     const showPopUp = (value) => {
         setOpen(value)
     }
-    const closePopUp = () => {
-        setOpen(0)
-    }
+    // const closePopUp = () => {
+    //     setOpen(0)
+    // }
     const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
     return (
         <>

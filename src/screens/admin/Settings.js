@@ -11,9 +11,9 @@ const Settings = () => {
   const showPopUp = (value) => {
       setOpen(value)
   }
-  const closePopUp = () => {
-      setOpen(0)
-  }
+  // const closePopUp = () => {
+  //     setOpen(0)
+  // }
   return (
     <div>
       <div>

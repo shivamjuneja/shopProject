@@ -78,7 +78,7 @@ export default function (props) {
           </div>
 
           <div>
-            <label for="role" className="form-label">Role</label>
+            <label htmlFor="role" className="form-label">Role</label>
             <input type="text" className="form-control" id="exampleInputPassword1"
               value={role}
               onChange={handleRoleChange} />
